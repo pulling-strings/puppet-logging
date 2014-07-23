@@ -1,0 +1,17 @@
+{
+  "name": "puppet-logging",
+  "version": "0.0.1",
+  "author": "narkisr",
+  "summary": "Logging management module for Unix systems",
+  "license": "Apache 2.0",
+  "source": "https://github.com/narkisr/puppet-logging",
+  "project_page": "https://github.com/narkisr/puppet-logging",
+  "issues_url": "https://github.com/narkisr/puppet-logging/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
+
