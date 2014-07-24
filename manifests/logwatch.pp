@@ -1,4 +1,4 @@
-# Setting up logwatch
+# Setting up logwatch, this module should be used in conjunction with puppet-ssmtp
 class logging::logwatch(
   $email='',
   $mailfrom='',
