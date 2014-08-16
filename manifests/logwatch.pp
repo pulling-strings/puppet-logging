@@ -16,4 +16,11 @@ class logging::logwatch(
     owner   => root,
     group   => root,
   }
+
+  cron{'logwatch':
+    command => "logwatch --detail ${detail} --mailto ${mailto} --range ${range}",
+    user    => 'root',
+    hour    => '0',
+    minute  => '0'
+  }
 }
