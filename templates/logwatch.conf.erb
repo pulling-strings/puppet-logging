@@ -112,7 +112,7 @@ Service = "-eximstats"      # Prevents execution of eximstats service, which
 # stream.
 # TODO test variables in the mailer string to see if the To/From/Subject can be set
 # From here with out breaking anything. This would allow mail/mailx/nail etc..... -mgt
-mailer = "/usr/sbin/sendmail -t"
+mailer = "/usr/sbin/ssmtp -t"
 
 #
 # With this option set to 'Yes', only log entries for this particular host
