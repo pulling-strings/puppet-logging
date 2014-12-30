@@ -14,7 +14,7 @@ class logging::sysdig {
     include_src => false
   } ->
 
-  package{"linux-headers-${kernelrelease}":
+  package{["linux-headers-${kernelrelease}", 'build-essential']:
     ensure  => present
   } ->
 
