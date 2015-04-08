@@ -1,6 +1,5 @@
 # setting up http://www.sysdig.org/
 class logging::sysdig {
-  ensure_resource('class', 'apt', {})
 
   apt::key { 'sysgid':
     key        => 'EC51E8C4',
